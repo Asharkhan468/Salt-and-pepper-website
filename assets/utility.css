@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* logo start  */
@@ -15,19 +16,85 @@
 
 
 /* logo end  */
-
-.navbar{
-    text-align: center;
-    display: flex;
-
-}
-.navbar ul li{
-    display: inline-block;
-    padding: 10px;
-   
-}
-.navbar ul li a {
+/* Navbar start */
+a{
     text-decoration: none;
     color: var(--white);
-    font: 1em sans-serif;
 }
+li{
+    list-style: none;
+}
+
+nav{
+    background-color: var(--black);
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-end;
+}
+.btn-prmy{
+    border: 1px solid;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: var(--red);
+    
+}
+.btn-prmy2{
+    border: 1px solid;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px;
+}
+/* Navbar End */
+
+/* Banner start */
+.banner{
+    background: url(/images/banner.png);
+    width: 100%;
+    min-height: 80vh;
+    background-size: cover;
+    position:relative;
+    margin:0 auto ;
+    margin-top: 20px;
+}
+/* Banner end */
+.text{
+    color: var(--white);
+    font-family:sans-serif;
+    text-align: center;
+    
+}
+.h1{
+    font-size: 60px;
+
+
+}
+
+/* vertical images start */
+.image{
+    margin-top: 100px;
+}
+.images{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 80px;
+    
+   
+}
+/* vertical images end */
+
+
+  
