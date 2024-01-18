@@ -66,10 +66,14 @@
 .bg-color{
 
    background-color: var(--grey);
+   margin-top: 100px;
 }
 .font{
    font-size: 50px;
   
+}
+.mgt{
+   margin-top: 100px;
 }
 .color{
    color: var(--red);
@@ -78,6 +82,25 @@
    padding-top: 50px;
 }
 /* Restutrant location area Styling ended */
+
+ /* Express Franchises started styling */
+ .gap{
+   gap:20px;
+margin: 50px 50px;   
+ }
+ .width-1{
+   width:360px;
+ }
+ 
+ /* Express Franchises started styling */
+
+
+  /* Social Feed started */
+  .width-2{
+   width: 230px;
+  }
+  
+  /* Social Feed ended */
 
 
 
