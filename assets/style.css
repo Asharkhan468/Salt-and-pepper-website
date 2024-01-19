@@ -60,6 +60,9 @@
    box-sizing: 3px;
    background-color: #ffff;
 }
+.padd{
+   padding: 20px; 
+}
 /* Children image styling ended */
 
 /* Restutrant location area Styling started */
@@ -117,6 +120,12 @@
    border-radius: 2px;
   }
 
+
+
+
+  .liststyle{
+   list-style: none;
+  }
 
 
 

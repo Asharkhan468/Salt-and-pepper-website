@@ -110,7 +110,7 @@
     border-radius: 30px;
 }
 .rounded-sm{
-    border-radius: 10px;
+    border-radius: 5px;
    
 }
 .rounded-md{
@@ -123,7 +123,7 @@
     color: #ffffff;
 }
 .text-grey{
-    color: rgba(255, 255, 255, 0.7);
+    color: #ffffffb3;
 }
 
 .transparent{
