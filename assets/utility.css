@@ -85,11 +85,14 @@
 .mt-6{
     margin-top: 40px;
 }
+.mt-7{
+    margin-top: 80px;
+}
 .ml-1{
     margin-left: 100px;
 }
 .mr-1{
-    margin-right: 100px;
+    margin-right: 450px;
 }
 /* margin classes end */
 
@@ -129,3 +132,29 @@
 .transparent{
     background-color: transparent;
 }
+ /* fonts  */
+
+ .san-serif{
+    font-family: sans-serif;
+ }
+
+ .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .font-size1{
+    font-size: 40px;
+  }
+
+  
+ .grey{
+     color:var(--grey);
+     }
+
+
+
+
+
+ /* fonts  */
