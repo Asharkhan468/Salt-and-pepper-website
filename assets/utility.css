@@ -132,6 +132,36 @@
 .transparent{
     background-color: transparent;
 }
+/* width class started */
+
+.width{
+    width: 550px;
+  }
+  
+
+
+
+/* width class started */
+
+
+
+/* Footer styling started */
+.liststyle{
+    list-style: none;
+   }
+
+
+   .fa-brands{
+    font-size: 25px;
+    margin: 5px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 40px;
+ }
+
+ /* Footer styling started */
+ 
  /* fonts  */
 
  .san-serif{
@@ -158,3 +188,8 @@
 
 
  /* fonts  */
+
+
+ .sideimage{
+    padding-top: 50px;
+ }

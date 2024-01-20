@@ -44,3 +44,56 @@
  .padding-rgt{
     padding-right: 80px;
  }
+
+
+
+ /* salt and pepper express started */
+
+ 
+.ml{
+   margin-left: -15px;
+}
+
+
+.mr{
+   margin-right: -15px;
+}
+
+
+
+
+
+  /* salt and pepper express ended */
+
+
+
+
+  .width-1{
+   width:360px;
+ }
+ 
+ .grey-pad{
+   background-color: var(--grey);
+   padding: 15px;
+ }
+
+
+ 
+ 
+ /* express franchise locations styling started */
+
+ .gap-2{
+   gap: 100px;
+ }
+.margin{
+   margin-right: 225px;
+}
+
+
+
+
+
+ /* express franchise locations styling ended*/
+
+
+
