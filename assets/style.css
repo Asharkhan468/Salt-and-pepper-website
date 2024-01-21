@@ -109,6 +109,37 @@
   /* Social Feed ended */
 
 
+  /* Locations Started */
+
+ .background{
+   background-color: var(--white);
+   width: 350px;
+   height: 250px;
+   
+
+ }
+
+ .text-red{
+   color: var(--red);
+ }
+
+ .text-black{
+   color: var(--black);
+   
+
+ }
+
+ .font-size{
+   font-size: 20px;
+ }
+.bold{
+   font-weight: bold;
+}
+
+
+   /* Locations ended */
+
+
 
 
 
@@ -131,6 +162,9 @@
 .icons{
    margin: 3px;
 }
+
+
+
 hr{
    width: 90%;
    border: 0;
