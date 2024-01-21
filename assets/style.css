@@ -41,10 +41,7 @@
 }
 .carousal{
    width: 100%;
-   min-height: 70vh;
-   background: url(https://static.tossdown.com/images/6d49fde6-2e27-4068-8b27-73bd0ee60cde.webp)no-repeat;
-   background-size:cover;
-   position: relative;
+   
    
 }
 /* Children image styling started */
