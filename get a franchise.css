@@ -37,66 +37,14 @@
     color: var(--red);
  }
 
- .padding-lft{
-    padding-left: 80px;
- }
-
- .padding-rgt{
-    padding-right: 80px;
- }
 
 
-
- /* salt and pepper express started */
-
- 
-.ml{
-   margin-left: -15px;
-}
-
-
-.mr{
-   margin-right: -15px;
-}
-
-
-
-
-
-  /* salt and pepper express ended */
-
-
-
-
-  .width-1{
-   width:360px;
+ input{
+    padding: 12px;
+    border-radius:4px;
+    width:35%;
+    color: #000;
+    size: 1000px;
+    
  }
  
- .grey-pad{
-   background-color: var(--grey);
-   padding: 15px;
- }
-
-
- 
- 
- /* express franchise locations styling started */
-
- .gap-2{
-   gap: 100px;
- }
-.margin{
-   margin: 50px;
-}
-
-
-
-
- /* express franchise locations styling ended*/
-
- .liststyle{
-   list-style: none;
- }
-
-
-

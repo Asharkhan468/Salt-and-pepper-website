@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,149 +9,224 @@
     <link rel="stylesheet" href="./assets/utility.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
-</head>
-<body class="bg-dark">
-    <!-- navbar started -->
-    <header id="navbar" class="d-flex justify-between align-center wrap">
-        <div class="logo">
-            <img id="main-logo" src="/images/logo.webp" alt="logo">
-        </div>
-        <div class="nav">
-            <nav id="navbar-items" class="d-flex justify-center align-center wrap">
-                <a class="nav-link" href="http://127.0.0.1:5500/index.html">Home</a>
-                <a class="nav-link" href="http://127.0.0.1:5500/Aboutus.html">About us</a>
-                <a class="nav-link" href="http://127.0.0.1:5500/publication.html">Publications</a>
-                <a class="nav-link" href="http://127.0.0.1:5500/feedback.html">Feedback</a>
-                <button id="franchise" class="rounded">Get a Franchise</button>
-                <button id="order-online" class="rounded">Order Online <span class="bg-light rounded " id="btn-icon"><i
-                            class="fa-solid fa-arrow-right" id="red"></i></span></button>
-            </nav>
-        </div>
-    </header>
-    <hr class="grey">
+    </head>
 
-    <main>
+    <body class="bg-dark">
+        <!-- navbar started -->
+        <header id="navbar" class="d-flex justify-between align-center wrap">
+            <div class="logo">
+                <img id="main-logo" src="/images/logo.webp" alt="logo">
+            </div>
+            <div class="nav">
+                <nav id="navbar-items" class="d-flex justify-center align-center wrap">
+                    <a class="nav-link" href="http://127.0.0.1:5500/index.html">Home</a>
+                    <a class="nav-link" href="http://127.0.0.1:5500/Aboutus.html">About us</a>
+                    <a class="nav-link" href="http://127.0.0.1:5500/publication.html">Publications</a>
+                    <a class="nav-link" href="http://127.0.0.1:5500/feedback.html">Feedback</a>
+                    <a href="http://127.0.0.1:5500/get%20a%20franchise.html"><button id="franchise" class="rounded">Get
+                            a Franchise</button></a>
+                    <button id="order-online" class="rounded">Order Online <span class="bg-light rounded "
+                            id="btn-icon"><i class="fa-solid fa-arrow-right" id="red"></i></span></button>
+                </nav>
+            </div>
+        </header>
+        <hr class="grey">
 
-        <h1 class="center mt-6">Rate Your Experience</h1>
+        <main>
 
-
-       
-
-        <div class="d-flex justify-around">
+            <h1 class="center mt-6">Rate Your Experience</h1>
 
 
-            
-            <form class="mt-6">
-                <label for="fname">Title:</label><br>
-                <input class="mt-4" type="text" size="60px"><br> <br>
+            <div class="d-flex justify-around center">
+                <div class="stars">
+                    <p>Food Quality</p>
 
-                <label for="fname">Comment:</label><br>
-                <input class="mt-4" type="text" size="60px"><br> <br>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1"></label>
+                </div>
 
-                <label for="fname">Full name:</label><br>
-                <input class="mt-4" type="text" size="60px"><br> <br>
+                <div class="stars">
+                    <p>Food Quality</p>
 
-                <label for="fname">Email:</label><br>
-                <input class="mt-4" type="email" size="60px"><br> <br>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1"></label>
+                </div>
 
-                <label for="fname">Phone Number:</label><br>
-                <input class="mt-4" type="number" size="60px"><br> <br>
+                <div class="stars">
+                    <p>Food Quality</p>
 
-                
-                
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1"></label>
+                </div>
+
+                <div class="stars">
+                    <p>Food Quality</p>
+
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1"></label>
+                </div>
+
+               >
+
+            </div>
 
 
 
-               
 
-                <button  id="order-online" class="rounded mt-6">POST FEEDBACK 
+            <div class="d-flex justify-around">
+
+
+
+                <form class="mt-6">
+                    <label class="ml-2" for="tittle">Title:</label><br>
+                    <input class="mt-4" type="text" size="60px"><br> <br>
+
+                    <label for="comment">Comment:</label><br>
+                    <input class="mt-4" type="text" size="60px"><br> <br>
+
+                    <label for="fname">Full name:</label><br>
+                    <input class="mt-4" type="text" size="60px"><br> <br>
+
+                    <label for="email">Email:</label><br>
+                    <input class="mt-4" type="email" size="60px"><br> <br>
+
+                    <label for="number">Phone Number:</label><br>
+                    <input class="mt-4" type="number" size="60px"><br> <br>
+
+
+
+
+
+
+
+
+                    <button id="order-online" class="rounded mt-6">POST FEEDBACK
                     </button>
-                
-              </form> 
-               
-            
+
+                </form>
 
 
 
 
-        </div>
-        
-
-    
-
-       
-
-      
-        
-
-    
 
 
-
-       
-
-    </main>
-
-
-
-    <footer class="bg-grey">
-        <div class="d-flex justify-around  mt-6 wrap">
-            <div><img id="main-logo" src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="logo">
-                <p class="text-grey">The Salt’n Pepper Restaurants are an example of <br> gracious dinning, outstanding service, extraordinary <br> classic and contemporary cuisine. The restaurants <br> have become the ultimate dinning destinations in <br>Lahore. From family occasions to business dinner <br> and moments of the heart, this place is where <br> unforgettable memories are made.
-    
-                </p><br><br>
-    
-                <p>Terms & conditions Privacy policy</p>
             </div>
-            <div class="liststyle">
-                <h4 class="mt-4  ">Site Links</h4>
-                <li class="mt-4 text-grey">Home</li>
-                <li class="mt-4 text-grey">About Us</li>
-                <li class="mt-4 text-grey">Publications</li>
-                <li class="mt-4 text-grey">Get a Franchise</li>
-                <li class="mt-4 text-grey">Feedback</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+
+
+
+        <footer class="bg-grey">
+            <div class="d-flex justify-around  mt-6 wrap">
+                <div><img id="main-logo"
+                        src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp"
+                        alt="logo">
+                    <p class="text-grey">The Salt’n Pepper Restaurants are an example of <br> gracious dinning,
+                        outstanding service, extraordinary <br> classic and contemporary cuisine. The restaurants <br>
+                        have become the ultimate dinning destinations in <br>Lahore. From family occasions to business
+                        dinner <br> and moments of the heart, this place is where <br> unforgettable memories are made.
+
+                    </p><br><br>
+
+                    <p>Terms & conditions Privacy policy</p>
+                </div>
+                <div class="liststyle">
+                    <h4 class="mt-4  ">Site Links</h4>
+                    <li class="mt-4 text-grey">Home</li>
+                    <li class="mt-4 text-grey">About Us</li>
+                    <li class="mt-4 text-grey">Publications</li>
+                    <li class="mt-4 text-grey">Get a Franchise</li>
+                    <li class="mt-4 text-grey">Feedback</li>
+                </div>
+                <div class="liststyle text-grey">
+                    <h4 class="mt-4 ">Contact Us</h4>
+                    <li class="mt-4 text-grey">+92 42 358 509 31 (Head Office)</li>
+                    <li class="mt-4 text-grey">+92 42 358 509 30 (Head Office)</li>
+                    <li class="mt-4 text-grey">+92 42 111 100 678 (Delivery)</li>
+                    <li class="mt-4 text-grey">+92 03 111 444 610 (Delivery)</li>
+                    <li class="mt-4 text-grey">snpfood@brain.net.pk</li>
+                    <li class="mt-4 text-grey">23-Usman Block, New <br> GardenTown, Lahore, Pakistan</li>
+                </div>
+                <div>
+                    <h4 class="mt-4">Follows Us</h4>
+                    <i class="fa-brands fa-facebook mt-4 margin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i> <br>
+                    <img class="icons mt-2" src="./images/apple icon.webp" alt=""> <br>
+                    <img class="icons" src="./images/playstoreicon.webp" alt="">
+                </div>
+
+
+
             </div>
-            <div class="liststyle text-grey">
-                <h4 class="mt-4 ">Contact Us</h4>
-                <li class="mt-4 text-grey">+92 42 358 509 31 (Head Office)</li>
-                <li class="mt-4 text-grey">+92 42 358 509 30 (Head Office)</li>
-                <li class="mt-4 text-grey">+92 42 111 100 678 (Delivery)</li>
-                <li class="mt-4 text-grey">+92 03 111 444 610 (Delivery)</li>
-                <li class="mt-4 text-grey">snpfood@brain.net.pk</li>
-                <li class="mt-4 text-grey">23-Usman Block, New <br> GardenTown, Lahore, Pakistan</li>
-            </div>
-            <div>
-                <h4 class="mt-4">Follows Us</h4>
-                <i class="fa-brands fa-facebook mt-4 margin"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i> <br>
-                <img class="icons mt-2" src="./images/apple icon.webp" alt=""> <br>
-                <img class="icons" src="./images/playstoreicon.webp" alt="">
-            </div> 
-    
-    
-          
-            </div>
-    
+
             <hr class="mt-6 text-grey">
-           <div class="d-flex justify-evenly">
-               
-                
-            <p class="text-grey mt-4 mr-1">&copy;2023 Salt'n Pepper Resturant</p>
-          
-            <p class="text-grey mt-4">Developed by:ASHAR KHAN</p>
-    
-        </div>
-           
-            
-            
-        
-    </footer>
-    
+            <div class="d-flex justify-evenly">
+
+
+                <p class="text-grey mt-4 mr-1">&copy;2023 Salt'n Pepper Resturant</p>
+
+                <p class="text-grey mt-4">Developed by:ASHAR KHAN</p>
+
+            </div>
 
 
 
-   
-</body>
+
+        </footer>
+
+
+
+
+
+    </body>
+
 </html>

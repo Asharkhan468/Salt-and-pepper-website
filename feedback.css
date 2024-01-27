@@ -45,6 +45,60 @@
     padding-right: 80px;
  }
 
+ /* Review stars styling started */
+ 
+  body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f4f4f4;
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: center; */
+   /* height: 100vh; */
+   margin: 0;
+} 
+
+.stars {
+   display: inline-block;
+   font-size: 12px;
+   cursor: pointer;
+}
+
+.stars input {
+   display: none;
+}
+
+.stars label {
+   float: right;
+   color: #ddd;
+   margin: 0.1em;
+   cursor: pointer;
+}
+
+.stars label:before {
+   content: '\2605';
+   font-size: 2em;
+}
+
+.stars input:checked ~ label {
+   color:var(--red);
+}
+
+.stars:hover label:before,
+.stars:hover label:after,
+.stars label:hover ~ label:before,
+.stars input:checked ~ label:before,
+.stars input:checked ~ label:after {
+   color: var(--red);
+}
+
+
+
+
+ /* Review stars styling ended */
+
+
+
+
 /* Form styling started */
 
 
