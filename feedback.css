@@ -45,6 +45,30 @@
     padding-right: 80px;
  }
 
- .checked{
-    color: orange;
- }
+/* Form styling started */
+
+
+input{
+   padding: 12px;
+   border-radius:4px;
+   width:100%;
+   color: #000;
+   size: 1000px;
+   
+}
+
+
+
+
+
+
+
+/* Footer styling started */
+
+.liststyle{
+   list-style: none;
+}
+
+
+
+
