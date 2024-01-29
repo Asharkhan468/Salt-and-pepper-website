@@ -42,11 +42,44 @@
 }
 
  input{
-    padding: 12px;
-    border-radius:4px;
-    width:35%;
-    color: #000;
-    size: 1000px;
-    
+   padding: 12px;
+   border-radius:4px;
+   width:550px;
+   color: #000;
+   height: 50px;
+   
+}
+
+ .box label{
+   margin-left: 10px;
+   font-size: 20px;
  }
+
+ .ml{
+   margin-left:40px;
+ }
+
+
+ .font-size{
+   font-size: 40px;
+ }
+
+ .liststyle{
+   list-style: none;
+ }
+
+ .gap-3{
+   gap: 40px;
+ }
+
+
+ /* Submit button styling started */
  
+.width-3{
+   width:180px;
+}
+.ml-3{
+   margin-left: 130px;
+}
+
+/* Submit button styling ended */

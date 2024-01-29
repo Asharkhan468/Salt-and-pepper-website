@@ -62,12 +62,15 @@
 .margin{
     margin: 10px;
 }
+/* img{
+   transition-duration: 0.5s;
+   transform: scale(1.1);
+} */
 
-.books .book1 img :hover{
-   transform: scale(1.2s);
+ .book1 img {
+  
+   transition-duration: 0.5s;
 }
-
-/* Books styling ended */
 
 
 
