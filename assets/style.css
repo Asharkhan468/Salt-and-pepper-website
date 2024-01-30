@@ -5,6 +5,7 @@
    --white:#ffffff;
    --black:#000000;
    --grey:#0f0f0f;
+   --green:#28a745;
 }
 
 /* navbar styling */
@@ -44,6 +45,17 @@
    width: 100%;
    
    
+}
+#getdirection{
+   background-color: var(--green);
+   border: 0px;
+   padding: 15px 20px;
+   cursor: pointer;
+
+}
+
+#green{
+   color:var(--green);
 }
 /* Children image styling started */
 

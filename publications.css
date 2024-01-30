@@ -56,21 +56,26 @@
     border: 1px solid #525252;
 }
 .width-1{
-    width: 600px;
+    width: 500px;
     
 }
 .margin{
     margin: 10px;
 }
-/* img{
-   transition-duration: 0.5s;
-   transform: scale(1.1);
-} */
 
- .book1 img {
-  
-   transition-duration: 0.5s;
+.publication{
+   padding: 42px 0px 40px;
 }
+
+
+ .publication :hover{
+
+   transform: scale(1.1);
+   transition: 0.5s;
+
+}
+
+
 
 
 
